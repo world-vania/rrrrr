@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: rgb(180, 142, 142);
+    color: rgb(24, 23, 100);
+}
+nav.name{
+    position: fixed;
+    margin-left: 0;
+    padding: 4px;
+}
+nav.name li{
+    display: inline;
+    margin-right: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 3px;
+}
+.description{
+    color:chartreuse;
+}
+@media{
+    max-width: 425px;
+}
